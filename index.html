@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <script></script>
+  <body>
+    <script defer src="script.js"></script>
+
+    <h1>Dice Simulator</h1>
+    <hr />
+    <h3>Choose a simulation option</h3>
+    <select name="dice-menu" id="dice-menu">
+      <option value="roll-1">Roll Dice Once</option>
+      <option value="roll-5">Roll Dice 5 Times</option>
+      <option value="roll-x">Roll Dice X Times</option>
+      <option value="roll-snake">Roll Dice Until Snake Eyes</option>
+    </select>
+
+    <p>
+      <button id="roll-btn">ROLL</button>
+      <button id="reset-btn">RESET</button>
+    </p>
+
+
+
+    <div id="dice-display">
+      <img src="images/0.png" id="dice-1" />
+      <img src="images/0.png" id="dice-2" />
+    </div>
+
+    <div id="roll-history">
+      <h3>Dice Rolls</h3>
+    </div>
+
+    <div id="roll-sum">
+      <h3>Dice Sum</h3>
+    </div>
+  </body>
+</html>
